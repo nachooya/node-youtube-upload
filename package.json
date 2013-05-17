@@ -1,0 +1,16 @@
+{
+    "name": "youtube-upload",
+    "version": "0.0.1",
+    "description": "Node.js module to upload videos to Youtube",
+    "preferGlobal": "true",
+    "main": "lib/YoutubeUpload.js",
+    "author": "Ignacio Martín Oya <nachooya@gmail.com>",
+    "keywords": ["youtube", "upload"],
+    "repository" : {
+        "type": "git",
+        "url": "https://github.com/nachooya/node-youtube-upload.git"
+    },
+    "dependencies": {
+    },
+    "engines": { "node": "*" }
+}
