@@ -8,7 +8,7 @@ var keywords            = 'music';
 var googleAccessToken   = '';
 var youtubeDeveloperKey = '';
 
-YoutubeUpload (filePath, title, description, category, keywords, access_token, youtubeDeveloperKey, function (err, youtube_id) {
+YoutubeUpload (filePath, title, description, category, keywords, googleAccessToken, youtubeDeveloperKey, false, false, function (err, youtube_id) {
 
   if (err) console.log ("Got error: "+err);
   else     console.log ("Got id: "+youtube_id);
