@@ -1,6 +1,6 @@
 {
     "name": "youtube-upload",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "Node.js module to upload videos to Youtube",
     "preferGlobal": "true",
     "main": "lib/YoutubeUpload.js",
